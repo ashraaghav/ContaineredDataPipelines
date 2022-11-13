@@ -1,0 +1,6 @@
+*env
+*csv
+*tsv
+*json
+*.idea/
+*__pycache__/
