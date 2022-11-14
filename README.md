@@ -22,13 +22,13 @@ through docker env files:
 
 ***setup/.pgenv***
 ```
-POSTGRES_PASSWORD=<your-password>
+POSTGRES_PASSWORD=<postgres-password>
 ```
 
 ***setup/.mongoenv***
 ```
-MONGO_INITDB_ROOT_USERNAME=<username>
-MONGO_INITDB_ROOT_PASSWORD=<password>
+MONGO_INITDB_ROOT_USERNAME=<mongo-username>
+MONGO_INITDB_ROOT_PASSWORD=<mongo-password>
 ```
 
 Run the following command to setup and start the 3 containers using docker
@@ -36,7 +36,7 @@ Run the following command to setup and start the 3 containers using docker
 cd setup && ./setup.sh 
 ```
 
-Once the containers are setup, you create a configuration file to provide 
+Once the containers are setup, create a configuration file to provide 
 the database connection URIs. We use a JSON configuration file with the 
 following structure
 
